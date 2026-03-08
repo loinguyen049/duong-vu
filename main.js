@@ -13,4 +13,4 @@ function closePopup(){
 
 setTimeout(function () {
     document.getElementById("openBtn").style.display = "block";
-}, 10000); // 15000 ms = 15s
+}, 5000); // 15000 ms = 15s
