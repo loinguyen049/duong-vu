@@ -3,9 +3,14 @@ onload = () =>{
 };
 function openPopup(){
     document.getElementById("popup").style.display="flex";
+    document.getElementById("openBtn").style.display="none";
 }
 
 function closePopup(){
     document.getElementById("popup").style.display="none";
+    document.getElementById("openBtn").style.display="block";
 }
-audioElement.play();
+
+setTimeout(function () {
+    document.getElementById("openBtn").style.display = "block";
+}, 10000); // 15000 ms = 15s
